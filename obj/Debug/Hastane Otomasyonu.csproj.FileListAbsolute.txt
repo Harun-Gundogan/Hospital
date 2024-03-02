@@ -1,0 +1,23 @@
+C:\Users\harun\source\repos\Hastane Otomasyonu\bin\Debug\Hastane Otomasyonu.exe.config
+C:\Users\harun\source\repos\Hastane Otomasyonu\bin\Debug\Hastane Otomasyonu.exe
+C:\Users\harun\source\repos\Hastane Otomasyonu\bin\Debug\Hastane Otomasyonu.pdb
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.Properties.Resources.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane Otomasyonu.csproj.GenerateResource.cache
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane Otomasyonu.exe
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane Otomasyonu.pdb
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmGiris.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmDoktorGiris.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmHastaDetay.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmHastaGiris.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmBrans.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmDoktorBilgiDuzenle.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmDoktorDetay.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmDoktorPaneli.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmDuyurular.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmRandevuListesi.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmSekreterDetay.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmSekreterGiris.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmHastaKayit.resources
+C:\Users\harun\source\repos\Hastane Otomasyonu\obj\Debug\Hastane_Otomasyonu.FrmHastaBilgiDuzenle.resources
