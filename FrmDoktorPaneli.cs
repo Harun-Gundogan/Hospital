@@ -20,10 +20,7 @@ namespace Hastane_Otomasyonu
             InitializeComponent();
         }
         SqlBaglanti bgl = new SqlBaglanti();
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
+       
         private void listele()
         {
 
@@ -49,7 +46,7 @@ namespace Hastane_Otomasyonu
         {
             if (TxtAd.Text == "" || TxtSoyad.Text == "" || CmbBrans.Text == "" || MtxtTC.Text == "" || TxtSifre.Text == "" || CmbCinsiyet.Text == "")
             {
-                MessageBox.Show("Lüfen boşalanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lüfen boş alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else
@@ -69,10 +66,7 @@ namespace Hastane_Otomasyonu
             }
         }
 
-        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -112,29 +106,12 @@ namespace Hastane_Otomasyonu
 
         }
 
-        private void MtxtTC_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void BtnCikis_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        
     }
 }

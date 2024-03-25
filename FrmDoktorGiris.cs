@@ -39,12 +39,7 @@ namespace Hastane_Otomasyonu
             this.Close();
         }
 
-        private void FrmDoktorGiris_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAnaMenu_Click(object sender, EventArgs e)
+            private void btnAnaMenu_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();
             frm.Show();

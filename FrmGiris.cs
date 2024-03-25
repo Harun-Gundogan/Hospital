@@ -17,21 +17,7 @@ namespace Hastane_Otomasyonu
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void BtnHasta_Click(object sender, EventArgs e)
         {
             FrmHastaGiris frm = new FrmHastaGiris();

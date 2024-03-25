@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\harun\\source\\repos\\Hastane Otomasyonu\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08F4F29E-1602-4AE1-B68B-01C610DF6A34}|Hastane Otomasyonu.csproj|c:\\users\\harun\\source\\repos\\hastane otomasyonu\\frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F4F29E-1602-4AE1-B68B-01C610DF6A34}|Hastane Otomasyonu.csproj|solutionrelative:frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F4F29E-1602-4AE1-B68B-01C610DF6A34}|Hastane Otomasyonu.csproj|c:\\users\\harun\\source\\repos\\hastane otomasyonu\\frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08F4F29E-1602-4AE1-B68B-01C610DF6A34}|Hastane Otomasyonu.csproj|solutionrelative:frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmBrans.cs",
+              "DocumentMoniker": "C:\\Users\\harun\\source\\repos\\Hastane Otomasyonu\\FrmBrans.cs",
+              "RelativeDocumentMoniker": "FrmBrans.cs",
+              "ToolTip": "C:\\Users\\harun\\source\\repos\\Hastane Otomasyonu\\FrmBrans.cs",
+              "RelativeToolTip": "FrmBrans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:05:22.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBrans.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\harun\\source\\repos\\Hastane Otomasyonu\\FrmBrans.cs",
+              "RelativeDocumentMoniker": "FrmBrans.cs",
+              "ToolTip": "C:\\Users\\harun\\source\\repos\\Hastane Otomasyonu\\FrmBrans.cs [Tasar\u0131m]",
+              "RelativeToolTip": "FrmBrans.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:05:01.147Z",
+              "EditorCaption": " [Tasar\u0131m]"
             }
           ]
         }

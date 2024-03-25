@@ -20,11 +20,7 @@ namespace Hastane_Otomasyonu
 
         SqlBaglanti bgl = new SqlBaglanti();
        
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void BtnGiris_Click(object sender, EventArgs e)
         {
             SqlCommand komut = new SqlCommand("select * from Tbl_Sekreter where sekreter_tc=@p1 and sekreter_sifre=@p2", bgl.baglanti());
@@ -40,16 +36,12 @@ namespace Hastane_Otomasyonu
             }
             else
             {
-                MessageBox.Show("hatalı giriş");
+                MessageBox.Show("Hatalı Giriş", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             bgl.baglanti().Close();
         }
 
-        private void FrmSekreterGiris_Load(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void button1_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();

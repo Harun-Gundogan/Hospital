@@ -18,20 +18,7 @@ namespace Hastane_Otomasyonu
             InitializeComponent();
         }
         public string tc;
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
+        
         SqlBaglanti bgl = new SqlBaglanti();
         private void FrmBilgiDuzenle_Load(object sender, EventArgs e)
         {
@@ -63,7 +50,7 @@ namespace Hastane_Otomasyonu
             komut.Parameters.AddWithValue("@p6", MtxtTc.Text); 
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("güncellendi");
+            MessageBox.Show("Kayıtlar güncellendi.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
         }
 

@@ -48,11 +48,7 @@ namespace Hastane_Otomasyonu
         }
 
       
-        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-
-        }
+        
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -67,30 +63,13 @@ namespace Hastane_Otomasyonu
             randevu_id.Text = dataGridView1.Rows[secilen].Cells[0].Value.ToString();
         }
         
-        private void dataGridView1_DoubleClick(object sender, EventArgs e)
-        {
-           
-        }
+       
 
         private void BtnCikis_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-        private void BtnEkle_Click(object sender, EventArgs e)
-        {
-            
-               
-            
-        }
-        private void BtnSil_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void BtnGuncelle_Click(object sender, EventArgs e)
-        {
-
-        }
-
+    
         private void cmbBrans_SelectedIndexChanged(object sender, EventArgs e)
         {
             cmbDoktor.Items.Clear();

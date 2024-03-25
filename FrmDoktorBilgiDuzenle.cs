@@ -19,21 +19,7 @@ namespace Hastane_Otomasyonu
         }
         SqlBaglanti bgl = new SqlBaglanti();
         public string tc;
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
+           
         private void button1_Click(object sender, EventArgs e)
         {
             SqlCommand komut = new SqlCommand("update tbl_doktor set doktor_ad=@p1, doktor_soyad=@p2,doktor_sifre=@p3 where doktor_tc=@p4",bgl.baglanti());

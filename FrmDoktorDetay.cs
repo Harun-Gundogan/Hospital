@@ -46,10 +46,6 @@ namespace Hastane_Otomasyonu
             
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void BtnBilgi_Click(object sender, EventArgs e)
         {
@@ -78,16 +74,7 @@ namespace Hastane_Otomasyonu
 
         }
 
-        private void LblSoyad_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+ 
         private void BtnAnamenu_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();

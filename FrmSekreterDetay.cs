@@ -21,31 +21,8 @@ namespace Hastane_Otomasyonu
         public string tc;
         
         SqlBaglanti bgl = new SqlBaglanti();
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtTC_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChkDurum_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
+       
+      
         private void FrmSekreterDetay_Load(object sender, EventArgs e)
         {
             LblTC.Text= tc;
@@ -83,11 +60,7 @@ namespace Hastane_Otomasyonu
             bgl.baglanti().Close();                 
         }
 
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             if (MtxtSaat.Text==""||tarih.Text==""||CmbBrans.Text==""||CmbDoktor.Text=="")
@@ -163,11 +136,7 @@ namespace Hastane_Otomasyonu
             frm.Show();
         }
 
-        private void BtnGuncelle_Click(object sender, EventArgs e)
-        {
-           
-        }
-
+       
         private void button2_Click(object sender, EventArgs e)
         {
             FrmDuyurular frm = new FrmDuyurular();
@@ -201,14 +170,6 @@ bgl.baglanti());
             bgl.baglanti().Close();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

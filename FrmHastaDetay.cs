@@ -23,10 +23,7 @@ namespace Hastane_Otomasyonu
             Lbltc.Text = tc;
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
+       
         SqlBaglanti bgl = new SqlBaglanti();
         private void FrmHastaDetay_Load(object sender, EventArgs e)
         {   
@@ -98,7 +95,7 @@ namespace Hastane_Otomasyonu
             komut4.Parameters.AddWithValue("@p3", txtid.Text);
             komut4.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("randevu alındı");
+            MessageBox.Show("Randevu Alındı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -119,11 +116,7 @@ namespace Hastane_Otomasyonu
             this.Close();
         }
 
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void BtnCikis_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
