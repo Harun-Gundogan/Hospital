@@ -46,7 +46,7 @@ namespace Hastane_Otomasyonu
         {
             if (TxtAd.Text == "" || TxtSoyad.Text == "" || CmbBrans.Text == "" || MtxtTC.Text == "" || TxtSifre.Text == "" || CmbCinsiyet.Text == "")
             {
-                MessageBox.Show("Lüfen boş alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lütfen boş alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else
