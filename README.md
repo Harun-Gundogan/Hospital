@@ -20,8 +20,5 @@ Web Tarayıcısı Desteği: Chrome, Firefox, Safari, Edge gibi modern web taray�
 İnternet Bağlantısı: Sistem, internet bağlantısı gerektirir.
 Kullanıcı Yetkilendirmesi: Farklı kullanıcı rolleri ve yetkilendirmeleri için bir yapılandırma gerektirir.
 
-Lisans:
-Bu proje açık kaynaklıdır ve MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz.
-
 Katılım:
 Projeyle ilgili geri bildirimlerinizi ve katkılarınızı GitHub üzerinden paylaşabilirsiniz. Pull request'lerinizle katkıda bulunmaktan mutluluk duyarız!
