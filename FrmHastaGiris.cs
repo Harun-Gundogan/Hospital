@@ -26,22 +26,35 @@ namespace Hastane_Otomasyonu
 
         private void BtnGiris_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("select * from Tbl_Hasta Where hasta_tc=@p1 and hasta_sifre=@p2", bgl.baglanti());
-            komut.Parameters.AddWithValue("@p1", MtxtTc.Text);
-            komut.Parameters.AddWithValue("@p2", TxtSifre.Text);
-            SqlDataReader dr = komut.ExecuteReader();
-            if(dr.Read())
+            try
             {
-                FrmHastaDetay frm = new FrmHastaDetay();
-                frm.tc = MtxtTc.Text;
-                frm.Show();
-                this.Hide();
+                if (txtSifre.Text == "" || mtxtTc.Text == "")
+                {
+                    MessageBox.Show("Lütfen boş alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                SqlCommand komut = new SqlCommand("select * from Tbl_Hasta Where hasta_tc=@p1 and hasta_sifre=@p2", bgl.baglanti());
+                komut.Parameters.AddWithValue("@p1", mtxtTc.Text);
+                komut.Parameters.AddWithValue("@p2", txtSifre.Text);
+                SqlDataReader dr = komut.ExecuteReader();
+                if (dr.Read())
+                {
+                    FrmHastaDetay frm = new FrmHastaDetay();
+                    frm.tc = mtxtTc.Text;
+                    frm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Lütfen girdiğiniz bilgileri kontrol ediniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                bgl.baglanti().Close();
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Hatalı TC veya Şifre");
+
+                MessageBox.Show("Hata Oluştu", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            bgl.baglanti().Close();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

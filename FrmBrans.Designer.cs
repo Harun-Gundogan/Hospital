@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.BtnEkle = new System.Windows.Forms.Button();
-            this.BtnGuncelle = new System.Windows.Forms.Button();
-            this.BtnSil = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.TxtBransID = new System.Windows.Forms.TextBox();
-            this.TxtBransAd = new System.Windows.Forms.TextBox();
+            this.txtBransID = new System.Windows.Forms.TextBox();
+            this.txtBransAd = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,38 +59,38 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Branş Ad:";
             // 
-            // BtnEkle
+            // btnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(66, 134);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(99, 32);
-            this.BtnEkle.TabIndex = 3;
-            this.BtnEkle.Text = "Ekle";
-            this.BtnEkle.UseVisualStyleBackColor = true;
-            this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
+            this.btnEkle.Location = new System.Drawing.Point(66, 134);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(99, 32);
+            this.btnEkle.TabIndex = 3;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
-            // BtnGuncelle
+            // btnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(173, 134);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(99, 32);
-            this.BtnGuncelle.TabIndex = 4;
-            this.BtnGuncelle.Text = "Güncelle";
-            this.BtnGuncelle.UseVisualStyleBackColor = true;
-            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
+            this.btnGuncelle.Location = new System.Drawing.Point(173, 134);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(99, 32);
+            this.btnGuncelle.TabIndex = 4;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
-            // BtnSil
+            // btnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(114, 174);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(99, 32);
-            this.BtnSil.TabIndex = 5;
-            this.BtnSil.Text = "Sil";
-            this.BtnSil.UseVisualStyleBackColor = true;
-            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
+            this.btnSil.Location = new System.Drawing.Point(114, 174);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(99, 32);
+            this.btnSil.TabIndex = 5;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // dataGridView1
             // 
@@ -108,37 +108,37 @@
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // TxtBransID
+            // txtBransID
             // 
-            this.TxtBransID.Enabled = false;
-            this.TxtBransID.Location = new System.Drawing.Point(104, 52);
-            this.TxtBransID.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtBransID.Name = "TxtBransID";
-            this.TxtBransID.Size = new System.Drawing.Size(169, 32);
-            this.TxtBransID.TabIndex = 1;
+            this.txtBransID.Enabled = false;
+            this.txtBransID.Location = new System.Drawing.Point(104, 52);
+            this.txtBransID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBransID.Name = "txtBransID";
+            this.txtBransID.Size = new System.Drawing.Size(169, 32);
+            this.txtBransID.TabIndex = 1;
             // 
-            // TxtBransAd
+            // txtBransAd
             // 
-            this.TxtBransAd.Location = new System.Drawing.Point(104, 94);
-            this.TxtBransAd.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtBransAd.Name = "TxtBransAd";
-            this.TxtBransAd.Size = new System.Drawing.Size(169, 32);
-            this.TxtBransAd.TabIndex = 2;
+            this.txtBransAd.Location = new System.Drawing.Point(104, 94);
+            this.txtBransAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBransAd.Name = "txtBransAd";
+            this.txtBransAd.Size = new System.Drawing.Size(169, 32);
+            this.txtBransAd.TabIndex = 2;
             // 
             // FrmBrans
             // 
-            this.AcceptButton = this.BtnEkle;
+            this.AcceptButton = this.btnEkle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(750, 405);
-            this.Controls.Add(this.TxtBransAd);
-            this.Controls.Add(this.TxtBransID);
+            this.Controls.Add(this.txtBransAd);
+            this.Controls.Add(this.txtBransID);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.BtnSil);
-            this.Controls.Add(this.BtnGuncelle);
-            this.Controls.Add(this.BtnEkle);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -157,11 +157,11 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button BtnEkle;
-        private System.Windows.Forms.Button BtnGuncelle;
-        private System.Windows.Forms.Button BtnSil;
+        private System.Windows.Forms.Button btnEkle;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox TxtBransID;
-        private System.Windows.Forms.TextBox TxtBransAd;
+        private System.Windows.Forms.TextBox txtBransID;
+        private System.Windows.Forms.TextBox txtBransAd;
     }
 }

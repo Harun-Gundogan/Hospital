@@ -20,28 +20,53 @@ namespace Hastane_Otomasyonu
 
         SqlBaglanti bgl = new SqlBaglanti();
        
-      
-        private void BtnGiris_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("select * from Tbl_Sekreter where sekreter_tc=@p1 and sekreter_sifre=@p2", bgl.baglanti());
-            komut.Parameters.AddWithValue("@p1", MtxtTC.Text);
-            komut.Parameters.AddWithValue("@p2", TxtSifre.Text);
-            SqlDataReader dr = komut.ExecuteReader();   
-            if(dr.Read())
-            {
-                FrmSekreterDetay frm = new FrmSekreterDetay();
-                frm.tc = MtxtTC.Text;
-                frm.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Hatalı Giriş", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            bgl.baglanti().Close();
+
         }
 
-     
+        private void BtnGiris_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtSifre.Text == "" || mtxtTC.Text == "")
+                {
+                    MessageBox.Show("Lütfen boş alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    SqlCommand komut = new SqlCommand("select * from Tbl_Sekreter where sekreter_tc=@p1 and sekreter_sifre=@p2", bgl.baglanti());
+                    komut.Parameters.AddWithValue("@p1", mtxtTC.Text);
+                    komut.Parameters.AddWithValue("@p2", txtSifre.Text);
+                    SqlDataReader dr = komut.ExecuteReader();
+                    if (dr.Read())
+                    {
+                        FrmSekreterDetay frm = new FrmSekreterDetay();
+                        frm.tc = mtxtTC.Text;
+                        frm.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("hatalı giriş");
+                    }
+                    bgl.baglanti().Close();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Hata Oluştu","Hata",MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+           
+        }
+
+        private void FrmSekreterGiris_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGiris));
-            this.BtnHasta = new System.Windows.Forms.Button();
-            this.BtnDoktor = new System.Windows.Forms.Button();
-            this.BtnSekreter = new System.Windows.Forms.Button();
+            this.btnHasta = new System.Windows.Forms.Button();
+            this.btnDoktor = new System.Windows.Forms.Button();
+            this.btnSekreter = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,41 +40,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // BtnHasta
+            // btnHasta
             // 
-            this.BtnHasta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnHasta.BackgroundImage")));
-            this.BtnHasta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnHasta.Location = new System.Drawing.Point(49, 318);
-            this.BtnHasta.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnHasta.Name = "BtnHasta";
-            this.BtnHasta.Size = new System.Drawing.Size(205, 222);
-            this.BtnHasta.TabIndex = 1;
-            this.BtnHasta.UseVisualStyleBackColor = true;
-            this.BtnHasta.Click += new System.EventHandler(this.BtnHasta_Click);
+            this.btnHasta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHasta.BackgroundImage")));
+            this.btnHasta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHasta.Location = new System.Drawing.Point(49, 318);
+            this.btnHasta.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHasta.Name = "btnHasta";
+            this.btnHasta.Size = new System.Drawing.Size(205, 222);
+            this.btnHasta.TabIndex = 1;
+            this.btnHasta.UseVisualStyleBackColor = true;
+            this.btnHasta.Click += new System.EventHandler(this.BtnHasta_Click);
             // 
-            // BtnDoktor
+            // btnDoktor
             // 
-            this.BtnDoktor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDoktor.BackgroundImage")));
-            this.BtnDoktor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnDoktor.Location = new System.Drawing.Point(381, 318);
-            this.BtnDoktor.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnDoktor.Name = "BtnDoktor";
-            this.BtnDoktor.Size = new System.Drawing.Size(205, 222);
-            this.BtnDoktor.TabIndex = 2;
-            this.BtnDoktor.UseVisualStyleBackColor = true;
-            this.BtnDoktor.Click += new System.EventHandler(this.BtnDoktor_Click);
+            this.btnDoktor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDoktor.BackgroundImage")));
+            this.btnDoktor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDoktor.Location = new System.Drawing.Point(381, 318);
+            this.btnDoktor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDoktor.Name = "btnDoktor";
+            this.btnDoktor.Size = new System.Drawing.Size(205, 222);
+            this.btnDoktor.TabIndex = 2;
+            this.btnDoktor.UseVisualStyleBackColor = true;
+            this.btnDoktor.Click += new System.EventHandler(this.BtnDoktor_Click);
             // 
-            // BtnSekreter
+            // btnSekreter
             // 
-            this.BtnSekreter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSekreter.BackgroundImage")));
-            this.BtnSekreter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnSekreter.Location = new System.Drawing.Point(713, 318);
-            this.BtnSekreter.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnSekreter.Name = "BtnSekreter";
-            this.BtnSekreter.Size = new System.Drawing.Size(205, 222);
-            this.BtnSekreter.TabIndex = 3;
-            this.BtnSekreter.UseVisualStyleBackColor = true;
-            this.BtnSekreter.Click += new System.EventHandler(this.BtnSekreter_Click);
+            this.btnSekreter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSekreter.BackgroundImage")));
+            this.btnSekreter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSekreter.Location = new System.Drawing.Point(713, 318);
+            this.btnSekreter.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSekreter.Name = "btnSekreter";
+            this.btnSekreter.Size = new System.Drawing.Size(205, 222);
+            this.btnSekreter.TabIndex = 3;
+            this.btnSekreter.UseVisualStyleBackColor = true;
+            this.btnSekreter.Click += new System.EventHandler(this.BtnSekreter_Click);
             // 
             // pictureBox1
             // 
@@ -135,7 +135,7 @@
             // 
             // FrmGiris
             // 
-            this.AcceptButton = this.BtnSekreter;
+            this.AcceptButton = this.btnSekreter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -145,9 +145,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.BtnSekreter);
-            this.Controls.Add(this.BtnDoktor);
-            this.Controls.Add(this.BtnHasta);
+            this.Controls.Add(this.btnSekreter);
+            this.Controls.Add(this.btnDoktor);
+            this.Controls.Add(this.btnHasta);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
@@ -161,9 +161,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button BtnHasta;
-        private System.Windows.Forms.Button BtnDoktor;
-        private System.Windows.Forms.Button BtnSekreter;
+        private System.Windows.Forms.Button btnHasta;
+        private System.Windows.Forms.Button btnDoktor;
+        private System.Windows.Forms.Button btnSekreter;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.TxtAd = new System.Windows.Forms.TextBox();
-            this.TxtSoyad = new System.Windows.Forms.TextBox();
-            this.MtxtTC = new System.Windows.Forms.MaskedTextBox();
-            this.TxtSifre = new System.Windows.Forms.TextBox();
-            this.BtnGuncelle = new System.Windows.Forms.Button();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.mTxtTC = new System.Windows.Forms.MaskedTextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.btnGuncelle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -81,63 +81,63 @@
             this.label5.Text = "Şifre:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // TxtAd
+            // txtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(163, 18);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(124, 32);
-            this.TxtAd.TabIndex = 1;
+            this.txtAd.Location = new System.Drawing.Point(163, 18);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(124, 32);
+            this.txtAd.TabIndex = 1;
             // 
-            // TxtSoyad
+            // txtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(163, 58);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(124, 32);
-            this.TxtSoyad.TabIndex = 2;
+            this.txtSoyad.Location = new System.Drawing.Point(163, 58);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(124, 32);
+            this.txtSoyad.TabIndex = 2;
             // 
-            // MtxtTC
+            // mTxtTC
             // 
-            this.MtxtTC.Location = new System.Drawing.Point(163, 98);
-            this.MtxtTC.Margin = new System.Windows.Forms.Padding(4);
-            this.MtxtTC.Mask = "00000000000";
-            this.MtxtTC.Name = "MtxtTC";
-            this.MtxtTC.Size = new System.Drawing.Size(124, 32);
-            this.MtxtTC.TabIndex = 3;
-            this.MtxtTC.ValidatingType = typeof(int);
+            this.mTxtTC.Location = new System.Drawing.Point(163, 98);
+            this.mTxtTC.Margin = new System.Windows.Forms.Padding(4);
+            this.mTxtTC.Mask = "00000000000";
+            this.mTxtTC.Name = "mTxtTC";
+            this.mTxtTC.Size = new System.Drawing.Size(124, 32);
+            this.mTxtTC.TabIndex = 3;
+            this.mTxtTC.ValidatingType = typeof(int);
             // 
-            // TxtSifre
+            // txtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(163, 138);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(124, 32);
-            this.TxtSifre.TabIndex = 4;
+            this.txtSifre.Location = new System.Drawing.Point(163, 138);
+            this.txtSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(124, 32);
+            this.txtSifre.TabIndex = 4;
             // 
-            // BtnGuncelle
+            // btnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(194, 178);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(93, 32);
-            this.BtnGuncelle.TabIndex = 5;
-            this.BtnGuncelle.Text = "Güncelle";
-            this.BtnGuncelle.UseVisualStyleBackColor = true;
-            this.BtnGuncelle.Click += new System.EventHandler(this.button1_Click);
+            this.btnGuncelle.Location = new System.Drawing.Point(194, 178);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(93, 32);
+            this.btnGuncelle.TabIndex = 5;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmDoktorBilgiDuzenle
             // 
-            this.AcceptButton = this.BtnGuncelle;
+            this.AcceptButton = this.btnGuncelle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(338, 238);
-            this.Controls.Add(this.BtnGuncelle);
-            this.Controls.Add(this.TxtSifre);
-            this.Controls.Add(this.MtxtTC);
-            this.Controls.Add(this.TxtSoyad);
-            this.Controls.Add(this.TxtAd);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.mTxtTC);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -159,10 +159,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox TxtAd;
-        private System.Windows.Forms.TextBox TxtSoyad;
-        private System.Windows.Forms.MaskedTextBox MtxtTC;
-        private System.Windows.Forms.TextBox TxtSifre;
-        private System.Windows.Forms.Button BtnGuncelle;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.MaskedTextBox mTxtTC;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.Button btnGuncelle;
     }
 }

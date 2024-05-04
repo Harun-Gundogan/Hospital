@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.MtxtTc = new System.Windows.Forms.MaskedTextBox();
-            this.TxtSifre = new System.Windows.Forms.TextBox();
-            this.BtnGiris = new System.Windows.Forms.Button();
+            this.mtxtTc = new System.Windows.Forms.MaskedTextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.btnGiris = new System.Windows.Forms.Button();
             this.btnAnaMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -68,34 +68,33 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Şifre:";
             // 
-            // MtxtTc
+            // mtxtTc
             // 
-            this.MtxtTc.Location = new System.Drawing.Point(145, 80);
-            this.MtxtTc.Margin = new System.Windows.Forms.Padding(4);
-            this.MtxtTc.Name = "MtxtTc";
-            this.MtxtTc.Size = new System.Drawing.Size(124, 32);
-            this.MtxtTc.TabIndex = 1;
-            this.MtxtTc.Text = "11111111111";
+            this.mtxtTc.Location = new System.Drawing.Point(145, 80);
+            this.mtxtTc.Margin = new System.Windows.Forms.Padding(4);
+            this.mtxtTc.Name = "mtxtTc";
+            this.mtxtTc.Size = new System.Drawing.Size(124, 32);
+            this.mtxtTc.TabIndex = 1;
             // 
-            // TxtSifre
+            // txtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(145, 123);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(124, 32);
-            this.TxtSifre.TabIndex = 2;
-            this.TxtSifre.Text = "5163";
+            this.txtSifre.Location = new System.Drawing.Point(145, 123);
+            this.txtSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.PasswordChar = '*';
+            this.txtSifre.Size = new System.Drawing.Size(124, 32);
+            this.txtSifre.TabIndex = 2;
             // 
-            // BtnGiris
+            // btnGiris
             // 
-            this.BtnGiris.Location = new System.Drawing.Point(49, 184);
-            this.BtnGiris.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnGiris.Name = "BtnGiris";
-            this.BtnGiris.Size = new System.Drawing.Size(107, 32);
-            this.BtnGiris.TabIndex = 3;
-            this.BtnGiris.Text = "Giriş Yap";
-            this.BtnGiris.UseVisualStyleBackColor = true;
-            this.BtnGiris.Click += new System.EventHandler(this.BtnGiris_Click);
+            this.btnGiris.Location = new System.Drawing.Point(49, 184);
+            this.btnGiris.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGiris.Name = "btnGiris";
+            this.btnGiris.Size = new System.Drawing.Size(107, 32);
+            this.btnGiris.TabIndex = 3;
+            this.btnGiris.Text = "Giriş Yap";
+            this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.BtnGiris_Click);
             // 
             // btnAnaMenu
             // 
@@ -109,16 +108,16 @@
             // 
             // FrmDoktorGiris
             // 
-            this.AcceptButton = this.BtnGiris;
+            this.AcceptButton = this.btnGiris;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(320, 249);
             this.Controls.Add(this.btnAnaMenu);
-            this.Controls.Add(this.BtnGiris);
-            this.Controls.Add(this.TxtSifre);
-            this.Controls.Add(this.MtxtTc);
+            this.Controls.Add(this.btnGiris);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.mtxtTc);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -138,9 +137,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox MtxtTc;
-        private System.Windows.Forms.TextBox TxtSifre;
-        private System.Windows.Forms.Button BtnGiris;
+        private System.Windows.Forms.MaskedTextBox mtxtTc;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.Button btnGiris;
         private System.Windows.Forms.Button btnAnaMenu;
     }
 }

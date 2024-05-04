@@ -34,13 +34,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.TxtAd = new System.Windows.Forms.TextBox();
-            this.TxtSoyad = new System.Windows.Forms.TextBox();
-            this.MtxtTc = new System.Windows.Forms.MaskedTextBox();
-            this.MtxtTel = new System.Windows.Forms.MaskedTextBox();
-            this.TxtSifre = new System.Windows.Forms.TextBox();
-            this.CmbCinsiyet = new System.Windows.Forms.ComboBox();
-            this.BtnKayit = new System.Windows.Forms.Button();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.mtxtTc = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtTel = new System.Windows.Forms.MaskedTextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.cmbCinsiyet = new System.Windows.Forms.ComboBox();
+            this.btnKayit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,84 +106,84 @@
             this.label6.Text = "Cinsiyet:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // TxtAd
+            // txtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(175, 14);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(124, 32);
-            this.TxtAd.TabIndex = 1;
+            this.txtAd.Location = new System.Drawing.Point(175, 14);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(124, 32);
+            this.txtAd.TabIndex = 1;
             // 
-            // TxtSoyad
+            // txtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(175, 56);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(124, 32);
-            this.TxtSoyad.TabIndex = 2;
+            this.txtSoyad.Location = new System.Drawing.Point(175, 56);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(124, 32);
+            this.txtSoyad.TabIndex = 2;
             // 
-            // MtxtTc
+            // mtxtTc
             // 
-            this.MtxtTc.Location = new System.Drawing.Point(175, 98);
-            this.MtxtTc.Margin = new System.Windows.Forms.Padding(4);
-            this.MtxtTc.Mask = "00000000000";
-            this.MtxtTc.Name = "MtxtTc";
-            this.MtxtTc.Size = new System.Drawing.Size(124, 32);
-            this.MtxtTc.TabIndex = 3;
-            this.MtxtTc.ValidatingType = typeof(int);
+            this.mtxtTc.Location = new System.Drawing.Point(175, 98);
+            this.mtxtTc.Margin = new System.Windows.Forms.Padding(4);
+            this.mtxtTc.Mask = "00000000000";
+            this.mtxtTc.Name = "mtxtTc";
+            this.mtxtTc.Size = new System.Drawing.Size(124, 32);
+            this.mtxtTc.TabIndex = 3;
+            this.mtxtTc.ValidatingType = typeof(int);
             // 
-            // MtxtTel
+            // mtxtTel
             // 
-            this.MtxtTel.Location = new System.Drawing.Point(175, 140);
-            this.MtxtTel.Margin = new System.Windows.Forms.Padding(4);
-            this.MtxtTel.Mask = "(999) 000-0000";
-            this.MtxtTel.Name = "MtxtTel";
-            this.MtxtTel.Size = new System.Drawing.Size(124, 32);
-            this.MtxtTel.TabIndex = 4;
+            this.mtxtTel.Location = new System.Drawing.Point(175, 140);
+            this.mtxtTel.Margin = new System.Windows.Forms.Padding(4);
+            this.mtxtTel.Mask = "(999) 000-0000";
+            this.mtxtTel.Name = "mtxtTel";
+            this.mtxtTel.Size = new System.Drawing.Size(124, 32);
+            this.mtxtTel.TabIndex = 4;
             // 
-            // TxtSifre
+            // txtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(175, 182);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(124, 32);
-            this.TxtSifre.TabIndex = 5;
+            this.txtSifre.Location = new System.Drawing.Point(175, 182);
+            this.txtSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(124, 32);
+            this.txtSifre.TabIndex = 5;
             // 
-            // CmbCinsiyet
+            // cmbCinsiyet
             // 
-            this.CmbCinsiyet.FormattingEnabled = true;
-            this.CmbCinsiyet.Location = new System.Drawing.Point(175, 224);
-            this.CmbCinsiyet.Margin = new System.Windows.Forms.Padding(4);
-            this.CmbCinsiyet.Name = "CmbCinsiyet";
-            this.CmbCinsiyet.Size = new System.Drawing.Size(124, 32);
-            this.CmbCinsiyet.TabIndex = 6;
+            this.cmbCinsiyet.FormattingEnabled = true;
+            this.cmbCinsiyet.Location = new System.Drawing.Point(175, 224);
+            this.cmbCinsiyet.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbCinsiyet.Name = "cmbCinsiyet";
+            this.cmbCinsiyet.Size = new System.Drawing.Size(124, 32);
+            this.cmbCinsiyet.TabIndex = 6;
             // 
-            // BtnKayit
+            // btnKayit
             // 
-            this.BtnKayit.Location = new System.Drawing.Point(211, 264);
-            this.BtnKayit.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnKayit.Name = "BtnKayit";
-            this.BtnKayit.Size = new System.Drawing.Size(88, 32);
-            this.BtnKayit.TabIndex = 7;
-            this.BtnKayit.Text = "Kayıt";
-            this.BtnKayit.UseVisualStyleBackColor = true;
-            this.BtnKayit.Click += new System.EventHandler(this.BtnKayit_Click);
+            this.btnKayit.Location = new System.Drawing.Point(211, 264);
+            this.btnKayit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnKayit.Name = "btnKayit";
+            this.btnKayit.Size = new System.Drawing.Size(88, 32);
+            this.btnKayit.TabIndex = 7;
+            this.btnKayit.Text = "Kayıt";
+            this.btnKayit.UseVisualStyleBackColor = true;
+            this.btnKayit.Click += new System.EventHandler(this.BtnKayit_Click);
             // 
             // FrmHastaBilgiDuzenle
             // 
-            this.AcceptButton = this.BtnKayit;
+            this.AcceptButton = this.btnKayit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(319, 319);
-            this.Controls.Add(this.BtnKayit);
-            this.Controls.Add(this.CmbCinsiyet);
-            this.Controls.Add(this.TxtSifre);
-            this.Controls.Add(this.MtxtTel);
-            this.Controls.Add(this.MtxtTc);
-            this.Controls.Add(this.TxtSoyad);
-            this.Controls.Add(this.TxtAd);
+            this.Controls.Add(this.btnKayit);
+            this.Controls.Add(this.cmbCinsiyet);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.mtxtTel);
+            this.Controls.Add(this.mtxtTc);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -209,12 +209,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox TxtAd;
-        private System.Windows.Forms.TextBox TxtSoyad;
-        private System.Windows.Forms.MaskedTextBox MtxtTc;
-        private System.Windows.Forms.MaskedTextBox MtxtTel;
-        private System.Windows.Forms.TextBox TxtSifre;
-        private System.Windows.Forms.ComboBox CmbCinsiyet;
-        private System.Windows.Forms.Button BtnKayit;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.MaskedTextBox mtxtTc;
+        private System.Windows.Forms.MaskedTextBox mtxtTel;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.ComboBox cmbCinsiyet;
+        private System.Windows.Forms.Button btnKayit;
     }
 }

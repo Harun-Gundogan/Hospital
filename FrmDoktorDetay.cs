@@ -21,36 +21,49 @@ namespace Hastane_Otomasyonu
         public string tc;
         private void FrmDoktorDetay_Load(object sender, EventArgs e)
         {
-            LblTC.Text = tc;
-            
-
-            // doktor id
-            SqlCommand komut2 = new SqlCommand("select (doktor_ad +' '+ doktor_soyad) as 'd' from tbl_doktor where doktor_tc=@p1", bgl.baglanti());
-            komut2.Parameters.AddWithValue("@p1", LblTC.Text);
-            SqlDataReader dr2 = komut2.ExecuteReader();
-            while (dr2.Read())
+            try
             {
-                label3.Text = dr2[0] + " ";
-                
+                lblTC.Text = tc;
 
+
+                // doktor id
+                SqlCommand komut2 = new SqlCommand("select (doktor_ad +' '+ doktor_soyad) as 'd' from tbl_doktor where doktor_tc=@p1", bgl.baglanti());
+                komut2.Parameters.AddWithValue("@p1", lblTC.Text);
+                SqlDataReader dr2 = komut2.ExecuteReader();
+                while (dr2.Read())
+                {
+                    lbkInfo.Text = dr2[0] + " ";
+
+
+                }
+
+                bgl.baglanti().Close();
+                //randevular
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter("select * from tbl_randevu where randevu_doktor='" + lbkInfo.Text + "'", bgl.baglanti());
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
             }
+            catch (Exception)
+            {
 
-            bgl.baglanti().Close();
-            //randevular
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("select * from tbl_randevu where randevu_doktor='" + label3.Text + "'", bgl.baglanti()); 
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
+                MessageBox.Show("Hata Oluştu","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+           
 
             
             
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
 
         private void BtnBilgi_Click(object sender, EventArgs e)
         {
             FrmDoktorBilgiDuzenle frm = new FrmDoktorBilgiDuzenle();
-            frm.tc = LblTC.Text;
+            frm.tc = lblTC.Text;
             frm.Show();
         }
 
@@ -68,13 +81,22 @@ namespace Hastane_Otomasyonu
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int secilen = dataGridView1.SelectedCells[0].RowIndex;
-            RtxtRandevuDetay.Text = dataGridView1.Rows[secilen].Cells[7].Value.ToString();
+            rtxtRandevuDetay.Text = dataGridView1.Rows[secilen].Cells[7].Value.ToString();
 
 
 
         }
 
- 
+        private void LblSoyad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void BtnAnamenu_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();

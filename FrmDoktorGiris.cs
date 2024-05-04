@@ -20,26 +20,49 @@ namespace Hastane_Otomasyonu
         SqlBaglanti bgl = new SqlBaglanti();
         private void BtnGiris_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("select * from tbl_doktor where doktor_tc=@p1 and doktor_sifre=@p2", bgl.baglanti());
-            komut.Parameters.AddWithValue("@p1", MtxtTc.Text);
-            komut.Parameters.AddWithValue("@p2", TxtSifre.Text);
-            SqlDataReader dr = komut.ExecuteReader();
-            if (dr.Read())
+            try
             {
-                
-               FrmDoktorDetay frm = new FrmDoktorDetay();
-                frm.tc=MtxtTc.Text;
-                frm.Show();
+                if (txtSifre.Text==""||mtxtTc.Text=="")
+
+                {
+                    MessageBox.Show("Lütfen boş yerleri doldurunuz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    SqlCommand komut = new SqlCommand("select * from tbl_doktor where doktor_tc=@p1 and doktor_sifre=@p2", bgl.baglanti());
+                    komut.Parameters.AddWithValue("@p1", mtxtTc.Text);
+                    komut.Parameters.AddWithValue("@p2", txtSifre.Text);
+                    SqlDataReader dr = komut.ExecuteReader();
+                    if (dr.Read())
+                    {
+
+                        FrmDoktorDetay frm = new FrmDoktorDetay();
+                        frm.tc = mtxtTc.Text;
+                        frm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Şifre veya TC Kimlik Numarası Hatalı", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    bgl.baglanti().Close();
+                    this.Close();
+                }
+               
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Şifre veya TC Kimlik Numarası Hatalı","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
+
+                MessageBox.Show("Hata Oluştu","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-            bgl.baglanti().Close();
-            this.Close();
+            
         }
 
-            private void btnAnaMenu_Click(object sender, EventArgs e)
+        private void FrmDoktorGiris_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAnaMenu_Click(object sender, EventArgs e)
         {
             FrmGiris frm = new FrmGiris();
             frm.Show();

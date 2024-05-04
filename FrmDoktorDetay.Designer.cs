@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.LblTC = new System.Windows.Forms.Label();
+            this.lbkInfo = new System.Windows.Forms.Label();
+            this.lblTC = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.RtxtRandevuDetay = new System.Windows.Forms.RichTextBox();
+            this.rtxtRandevuDetay = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.BtnAnamenu = new System.Windows.Forms.Button();
-            this.BtnCikis = new System.Windows.Forms.Button();
-            this.BtnDuyuru = new System.Windows.Forms.Button();
-            this.BtnBilgi = new System.Windows.Forms.Button();
+            this.btnAnamenu = new System.Windows.Forms.Button();
+            this.btnCikis = new System.Windows.Forms.Button();
+            this.btnDuyuru = new System.Windows.Forms.Button();
+            this.btnBilgi = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
@@ -51,8 +51,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.LblTC);
+            this.groupBox1.Controls.Add(this.lbkInfo);
+            this.groupBox1.Controls.Add(this.lblTC);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(15, 18);
@@ -65,24 +65,24 @@
             this.groupBox1.Text = "Doktor Bilgi";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label3
+            // lbkInfo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(135, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 24);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "lblInfo";
+            this.lbkInfo.AutoSize = true;
+            this.lbkInfo.Location = new System.Drawing.Point(135, 91);
+            this.lbkInfo.Name = "lbkInfo";
+            this.lbkInfo.Size = new System.Drawing.Size(64, 24);
+            this.lbkInfo.TabIndex = 5;
+            this.lbkInfo.Text = "lblInfo";
             // 
-            // LblTC
+            // lblTC
             // 
-            this.LblTC.AutoSize = true;
-            this.LblTC.Location = new System.Drawing.Point(124, 48);
-            this.LblTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LblTC.Name = "LblTC";
-            this.LblTC.Size = new System.Drawing.Size(120, 24);
-            this.LblTC.TabIndex = 2;
-            this.LblTC.Text = "00000000000";
+            this.lblTC.AutoSize = true;
+            this.lblTC.Location = new System.Drawing.Point(124, 48);
+            this.lblTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTC.Name = "lblTC";
+            this.lblTC.Size = new System.Drawing.Size(120, 24);
+            this.lblTC.TabIndex = 2;
+            this.lblTC.Text = "00000000000";
             // 
             // label2
             // 
@@ -106,7 +106,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.RtxtRandevuDetay);
+            this.groupBox2.Controls.Add(this.rtxtRandevuDetay);
             this.groupBox2.Location = new System.Drawing.Point(15, 193);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -116,22 +116,22 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Detay";
             // 
-            // RtxtRandevuDetay
+            // rtxtRandevuDetay
             // 
-            this.RtxtRandevuDetay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RtxtRandevuDetay.Location = new System.Drawing.Point(4, 29);
-            this.RtxtRandevuDetay.Margin = new System.Windows.Forms.Padding(4);
-            this.RtxtRandevuDetay.Name = "RtxtRandevuDetay";
-            this.RtxtRandevuDetay.Size = new System.Drawing.Size(267, 228);
-            this.RtxtRandevuDetay.TabIndex = 5;
-            this.RtxtRandevuDetay.Text = "";
+            this.rtxtRandevuDetay.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtxtRandevuDetay.Location = new System.Drawing.Point(4, 29);
+            this.rtxtRandevuDetay.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtRandevuDetay.Name = "rtxtRandevuDetay";
+            this.rtxtRandevuDetay.Size = new System.Drawing.Size(267, 228);
+            this.rtxtRandevuDetay.TabIndex = 5;
+            this.rtxtRandevuDetay.Text = "";
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.BtnAnamenu);
-            this.groupBox3.Controls.Add(this.BtnCikis);
-            this.groupBox3.Controls.Add(this.BtnDuyuru);
-            this.groupBox3.Controls.Add(this.BtnBilgi);
+            this.groupBox3.Controls.Add(this.btnAnamenu);
+            this.groupBox3.Controls.Add(this.btnCikis);
+            this.groupBox3.Controls.Add(this.btnDuyuru);
+            this.groupBox3.Controls.Add(this.btnBilgi);
             this.groupBox3.Location = new System.Drawing.Point(19, 478);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
@@ -141,49 +141,49 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Hızlı Erişim";
             // 
-            // BtnAnamenu
+            // btnAnamenu
             // 
-            this.BtnAnamenu.Location = new System.Drawing.Point(18, 95);
-            this.BtnAnamenu.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnAnamenu.Name = "BtnAnamenu";
-            this.BtnAnamenu.Size = new System.Drawing.Size(109, 56);
-            this.BtnAnamenu.TabIndex = 3;
-            this.BtnAnamenu.Text = "Ana Menü";
-            this.BtnAnamenu.UseVisualStyleBackColor = true;
-            this.BtnAnamenu.Click += new System.EventHandler(this.BtnAnamenu_Click);
+            this.btnAnamenu.Location = new System.Drawing.Point(18, 95);
+            this.btnAnamenu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAnamenu.Name = "btnAnamenu";
+            this.btnAnamenu.Size = new System.Drawing.Size(109, 56);
+            this.btnAnamenu.TabIndex = 3;
+            this.btnAnamenu.Text = "Ana Menü";
+            this.btnAnamenu.UseVisualStyleBackColor = true;
+            this.btnAnamenu.Click += new System.EventHandler(this.BtnAnamenu_Click);
             // 
-            // BtnCikis
+            // btnCikis
             // 
-            this.BtnCikis.Location = new System.Drawing.Point(136, 95);
-            this.BtnCikis.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnCikis.Name = "BtnCikis";
-            this.BtnCikis.Size = new System.Drawing.Size(109, 56);
-            this.BtnCikis.TabIndex = 4;
-            this.BtnCikis.Text = "Çıkış";
-            this.BtnCikis.UseVisualStyleBackColor = true;
-            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
+            this.btnCikis.Location = new System.Drawing.Point(136, 95);
+            this.btnCikis.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCikis.Name = "btnCikis";
+            this.btnCikis.Size = new System.Drawing.Size(109, 56);
+            this.btnCikis.TabIndex = 4;
+            this.btnCikis.Text = "Çıkış";
+            this.btnCikis.UseVisualStyleBackColor = true;
+            this.btnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
-            // BtnDuyuru
+            // btnDuyuru
             // 
-            this.BtnDuyuru.Location = new System.Drawing.Point(136, 33);
-            this.BtnDuyuru.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnDuyuru.Name = "BtnDuyuru";
-            this.BtnDuyuru.Size = new System.Drawing.Size(109, 56);
-            this.BtnDuyuru.TabIndex = 2;
-            this.BtnDuyuru.Text = "Duyurular";
-            this.BtnDuyuru.UseVisualStyleBackColor = true;
-            this.BtnDuyuru.Click += new System.EventHandler(this.BtnDuyuru_Click);
+            this.btnDuyuru.Location = new System.Drawing.Point(136, 33);
+            this.btnDuyuru.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDuyuru.Name = "btnDuyuru";
+            this.btnDuyuru.Size = new System.Drawing.Size(109, 56);
+            this.btnDuyuru.TabIndex = 2;
+            this.btnDuyuru.Text = "Duyurular";
+            this.btnDuyuru.UseVisualStyleBackColor = true;
+            this.btnDuyuru.Click += new System.EventHandler(this.BtnDuyuru_Click);
             // 
-            // BtnBilgi
+            // btnBilgi
             // 
-            this.BtnBilgi.Location = new System.Drawing.Point(18, 33);
-            this.BtnBilgi.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnBilgi.Name = "BtnBilgi";
-            this.BtnBilgi.Size = new System.Drawing.Size(109, 56);
-            this.BtnBilgi.TabIndex = 1;
-            this.BtnBilgi.Text = "Bilgileri Düzenle";
-            this.BtnBilgi.UseVisualStyleBackColor = true;
-            this.BtnBilgi.Click += new System.EventHandler(this.BtnBilgi_Click);
+            this.btnBilgi.Location = new System.Drawing.Point(18, 33);
+            this.btnBilgi.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBilgi.Name = "btnBilgi";
+            this.btnBilgi.Size = new System.Drawing.Size(109, 56);
+            this.btnBilgi.TabIndex = 1;
+            this.btnBilgi.Text = "Bilgileri Düzenle";
+            this.btnBilgi.UseVisualStyleBackColor = true;
+            this.btnBilgi.Click += new System.EventHandler(this.BtnBilgi_Click);
             // 
             // groupBox4
             // 
@@ -217,7 +217,7 @@
             // 
             // FrmDoktorDetay
             // 
-            this.AcceptButton = this.BtnAnamenu;
+            this.AcceptButton = this.btnAnamenu;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -246,18 +246,18 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label LblTC;
+        private System.Windows.Forms.Label lblTC;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RichTextBox RtxtRandevuDetay;
+        private System.Windows.Forms.RichTextBox rtxtRandevuDetay;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button BtnCikis;
-        private System.Windows.Forms.Button BtnDuyuru;
-        private System.Windows.Forms.Button BtnBilgi;
+        private System.Windows.Forms.Button btnCikis;
+        private System.Windows.Forms.Button btnDuyuru;
+        private System.Windows.Forms.Button btnBilgi;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button BtnAnamenu;
+        private System.Windows.Forms.Label lbkInfo;
+        private System.Windows.Forms.Button btnAnamenu;
     }
 }

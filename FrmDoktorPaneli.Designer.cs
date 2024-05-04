@@ -33,19 +33,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.BtnEkle = new System.Windows.Forms.Button();
-            this.BtnSil = new System.Windows.Forms.Button();
-            this.BtnGuncelle = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.TxtAd = new System.Windows.Forms.TextBox();
-            this.TxtSoyad = new System.Windows.Forms.TextBox();
-            this.CmbBrans = new System.Windows.Forms.ComboBox();
-            this.MtxtTC = new System.Windows.Forms.MaskedTextBox();
-            this.TxtSifre = new System.Windows.Forms.TextBox();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.cmbBrans = new System.Windows.Forms.ComboBox();
+            this.mtxtTC = new System.Windows.Forms.MaskedTextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.CmbCinsiyet = new System.Windows.Forms.ComboBox();
-            this.BtnCikis = new System.Windows.Forms.Button();
+            this.cmbCinsiyet = new System.Windows.Forms.ComboBox();
+            this.btnCikis = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -101,38 +101,38 @@
             this.label5.Text = "Şifre:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // BtnEkle
+            // btnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(70, 280);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(96, 32);
-            this.BtnEkle.TabIndex = 6;
-            this.BtnEkle.Text = "Ekle";
-            this.BtnEkle.UseVisualStyleBackColor = true;
-            this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
+            this.btnEkle.Location = new System.Drawing.Point(70, 280);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(96, 32);
+            this.btnEkle.TabIndex = 6;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
-            // BtnSil
+            // btnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(176, 280);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(96, 32);
-            this.BtnSil.TabIndex = 7;
-            this.BtnSil.Text = "Sil";
-            this.BtnSil.UseVisualStyleBackColor = true;
-            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
+            this.btnSil.Location = new System.Drawing.Point(176, 280);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(96, 32);
+            this.btnSil.TabIndex = 7;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
-            // BtnGuncelle
+            // btnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(70, 320);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(96, 32);
-            this.BtnGuncelle.TabIndex = 8;
-            this.BtnGuncelle.Text = "Güncelle";
-            this.BtnGuncelle.UseVisualStyleBackColor = true;
-            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
+            this.btnGuncelle.Location = new System.Drawing.Point(70, 320);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(96, 32);
+            this.btnGuncelle.TabIndex = 8;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // dataGridView1
             // 
@@ -153,50 +153,50 @@
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
-            // TxtAd
+            // txtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(148, 42);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(124, 32);
-            this.TxtAd.TabIndex = 1;
+            this.txtAd.Location = new System.Drawing.Point(148, 42);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(124, 32);
+            this.txtAd.TabIndex = 1;
             // 
-            // TxtSoyad
+            // txtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(148, 82);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(124, 32);
-            this.TxtSoyad.TabIndex = 2;
+            this.txtSoyad.Location = new System.Drawing.Point(148, 82);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(124, 32);
+            this.txtSoyad.TabIndex = 2;
             // 
-            // CmbBrans
+            // cmbBrans
             // 
-            this.CmbBrans.FormattingEnabled = true;
-            this.CmbBrans.Location = new System.Drawing.Point(148, 122);
-            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4);
-            this.CmbBrans.Name = "CmbBrans";
-            this.CmbBrans.Size = new System.Drawing.Size(124, 32);
-            this.CmbBrans.TabIndex = 3;
-            this.CmbBrans.SelectedIndexChanged += new System.EventHandler(this.CmbBrans_SelectedIndexChanged);
+            this.cmbBrans.FormattingEnabled = true;
+            this.cmbBrans.Location = new System.Drawing.Point(148, 122);
+            this.cmbBrans.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbBrans.Name = "cmbBrans";
+            this.cmbBrans.Size = new System.Drawing.Size(124, 32);
+            this.cmbBrans.TabIndex = 3;
+            this.cmbBrans.SelectedIndexChanged += new System.EventHandler(this.CmbBrans_SelectedIndexChanged);
             // 
-            // MtxtTC
+            // mtxtTC
             // 
-            this.MtxtTC.Location = new System.Drawing.Point(148, 162);
-            this.MtxtTC.Margin = new System.Windows.Forms.Padding(4);
-            this.MtxtTC.Mask = "00000000000";
-            this.MtxtTC.Name = "MtxtTC";
-            this.MtxtTC.Size = new System.Drawing.Size(124, 32);
-            this.MtxtTC.TabIndex = 12;
-            this.MtxtTC.ValidatingType = typeof(int);
-            this.MtxtTC.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.MtxtTC_MaskInputRejected);
+            this.mtxtTC.Location = new System.Drawing.Point(148, 162);
+            this.mtxtTC.Margin = new System.Windows.Forms.Padding(4);
+            this.mtxtTC.Mask = "00000000000";
+            this.mtxtTC.Name = "mtxtTC";
+            this.mtxtTC.Size = new System.Drawing.Size(124, 32);
+            this.mtxtTC.TabIndex = 12;
+            this.mtxtTC.ValidatingType = typeof(int);
+            this.mtxtTC.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.MtxtTC_MaskInputRejected);
             // 
-            // TxtSifre
+            // txtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(148, 240);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(124, 32);
-            this.TxtSifre.TabIndex = 5;
+            this.txtSifre.Location = new System.Drawing.Point(148, 240);
+            this.txtSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(124, 32);
+            this.txtSifre.TabIndex = 5;
             // 
             // groupBox1
             // 
@@ -218,48 +218,48 @@
             this.label6.Text = "Cinsiyet:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // CmbCinsiyet
+            // cmbCinsiyet
             // 
-            this.CmbCinsiyet.FormattingEnabled = true;
-            this.CmbCinsiyet.Items.AddRange(new object[] {
+            this.cmbCinsiyet.FormattingEnabled = true;
+            this.cmbCinsiyet.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.CmbCinsiyet.Location = new System.Drawing.Point(148, 201);
-            this.CmbCinsiyet.Name = "CmbCinsiyet";
-            this.CmbCinsiyet.Size = new System.Drawing.Size(124, 32);
-            this.CmbCinsiyet.TabIndex = 4;
+            this.cmbCinsiyet.Location = new System.Drawing.Point(148, 201);
+            this.cmbCinsiyet.Name = "cmbCinsiyet";
+            this.cmbCinsiyet.Size = new System.Drawing.Size(124, 32);
+            this.cmbCinsiyet.TabIndex = 4;
             // 
-            // BtnCikis
+            // btnCikis
             // 
-            this.BtnCikis.Location = new System.Drawing.Point(176, 320);
-            this.BtnCikis.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnCikis.Name = "BtnCikis";
-            this.BtnCikis.Size = new System.Drawing.Size(96, 32);
-            this.BtnCikis.TabIndex = 9;
-            this.BtnCikis.Text = "Çıkış";
-            this.BtnCikis.UseVisualStyleBackColor = true;
-            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
+            this.btnCikis.Location = new System.Drawing.Point(176, 320);
+            this.btnCikis.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCikis.Name = "btnCikis";
+            this.btnCikis.Size = new System.Drawing.Size(96, 32);
+            this.btnCikis.TabIndex = 9;
+            this.btnCikis.Text = "Çıkış";
+            this.btnCikis.UseVisualStyleBackColor = true;
+            this.btnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
             // FrmDoktorPaneli
             // 
-            this.AcceptButton = this.BtnEkle;
+            this.AcceptButton = this.btnEkle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1254, 478);
-            this.Controls.Add(this.BtnCikis);
+            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.CmbCinsiyet);
+            this.Controls.Add(this.cmbCinsiyet);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.TxtSifre);
-            this.Controls.Add(this.MtxtTC);
-            this.Controls.Add(this.CmbBrans);
-            this.Controls.Add(this.TxtSoyad);
-            this.Controls.Add(this.TxtAd);
-            this.Controls.Add(this.BtnGuncelle);
-            this.Controls.Add(this.BtnSil);
-            this.Controls.Add(this.BtnEkle);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.mtxtTC);
+            this.Controls.Add(this.cmbBrans);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -286,18 +286,18 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button BtnEkle;
-        private System.Windows.Forms.Button BtnSil;
-        private System.Windows.Forms.Button BtnGuncelle;
+        private System.Windows.Forms.Button btnEkle;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox TxtAd;
-        private System.Windows.Forms.TextBox TxtSoyad;
-        private System.Windows.Forms.ComboBox CmbBrans;
-        private System.Windows.Forms.MaskedTextBox MtxtTC;
-        private System.Windows.Forms.TextBox TxtSifre;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.ComboBox cmbBrans;
+        private System.Windows.Forms.MaskedTextBox mtxtTC;
+        private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox CmbCinsiyet;
-        private System.Windows.Forms.Button BtnCikis;
+        private System.Windows.Forms.ComboBox cmbCinsiyet;
+        private System.Windows.Forms.Button btnCikis;
     }
 }
